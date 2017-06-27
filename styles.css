@@ -3,5 +3,10 @@ img {
 }
 body {
     text-align: center;
-    font-family: "Arial";
+    font-family: "Times New Roman";
 }
+p {
+    font-family: "Times New Roman";
+}
+#Gandalf {
+    text-align: center;
