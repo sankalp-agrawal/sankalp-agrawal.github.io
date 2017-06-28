@@ -4,6 +4,9 @@ img {
 body {
     text-align: center;
     font-family: "Times New Roman";
+    background-image: url("http://i.imgur.com/oxFnE3S.gif");
+    background-size:1500px;
+    color: white;
 }
 p {
     font-family: "Times New Roman";
@@ -12,6 +15,26 @@ p {
     text-align: center;
     width: 400px;
 }
+#blackred{
+    color: white;
+    position: relative;
+    top: 487px;
+    right:20px;
+    text-align: left;
+    
+}
 #black {
-    color: black;
+    color: white;
+}
+h1 {
+    text-decoration: underline
+}
+.marker {
+    list-style-type: square;
+}
+#size {
+    width:600px;
+}
+a {
+    text-align: center
 }
