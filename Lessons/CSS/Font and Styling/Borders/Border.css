@@ -1,0 +1,22 @@
+#four_sides {
+    border-style:solid;
+    border-color:red;
+}
+#three_sides {
+    border-style:solid;
+    border-color: red;
+    border-bottom-color: blue;
+}
+#two_sides {
+    border-style:solid;
+    border-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+}
+#one_side {
+    border-style:solid;
+    border-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+}

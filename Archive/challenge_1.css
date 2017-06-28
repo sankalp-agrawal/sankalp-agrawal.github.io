@@ -1,0 +1,16 @@
+li {
+    font-size: 24px;
+}
+li.red {
+    color:red;
+    text-decoration: underline;
+}
+#orange {
+    color:orange;
+    background: #d2b48c;
+}
+#border {
+    border-style:solid;
+    border-color:black;
+    color:blue;
+}
