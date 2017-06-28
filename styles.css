@@ -15,11 +15,11 @@ p {
     text-align: center;
     width: 400px;
 }
-#blackred{
+.blackred{
     color: white;
     position: relative;
     top: 487px;
-    right:20px;
+    right:90px;
     text-align: left;
     
 }
@@ -37,4 +37,8 @@ h1 {
 }
 a {
     text-align: center
+}
+.red {
+    position: relative;
+    left:50px;
 }
