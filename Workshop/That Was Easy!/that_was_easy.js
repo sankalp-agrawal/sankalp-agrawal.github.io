@@ -1,6 +1,6 @@
-function sayThatWasEasy() {
-  var thatWasEasy = new Audio("that_was_easy.mp3");
-  thatWasEasy.play();
+function close_window() {
+  if (confirm("Close Window?") == true) {
+    close();
+  }
 }
-$("#easy").on("click", sayThatWasEasy);
-$(document).keypress(sayThatWasEasy);
+$("#easy").on("click", close_window());
