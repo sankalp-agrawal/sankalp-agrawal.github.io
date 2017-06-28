@@ -1,0 +1,24 @@
+table, th, td {
+    border:1px solid black;
+    text-align: center
+}
+table{
+    alignment-baseline: center
+    
+}
+h1 {
+    color:red;
+}
+.Salmon {
+    background-color:#ffa07a;
+}
+.red {
+    background-color:red;
+}
+li {
+    text-align: center;
+    background-color:yellow;
+}
+body {
+    text-align: center;
+}
