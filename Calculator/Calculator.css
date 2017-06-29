@@ -7,10 +7,29 @@ button {
 }
 input{
     color: white;
-    background-color: gray
+    background-color: gray;
+    text-align:center;
+}
+#output {
+    font-size: 30px;
+    position: relative;
+    top:-30px;
 }
 body {
     color: white;
     background-color: #A8A8A8;
     font-family: "Times New Roman";
+    text-align: center
+}
+#symbol {
+    position: relative;
+    right: 6px;
+    top:-3px;
+}
+#output_title {
+    position: relative;
+    top:-5px;
+}
+#reset {
+    width: 50px;
 }

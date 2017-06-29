@@ -5,14 +5,20 @@
         <link href="Calculator.css" rel="stylesheet">
     </head>
     <body>
+        <p>First Number:</p>
        <input id="first_number" type="number" placeholder="Insert First Number"/>
-       <p></p>
+       <p>Second Number:</p>
        <input id="second_number" type="number" placeholder="Insert Second Number"/>
        <p></p>
        <button type="button" id="plus"> + </button>
        <button type="button" id="minus"> - </button>
        <button type="button" id="divide"> / </button>
        <button type="button" id="multiply"> x </button>
+       <button type="button" id="power"> ^ </button>
+       <p>These only require the first box, so don't fill the second.</p>
+       
+       <button type="button" id="sqrt">Square Root</button>
+       <p id="output_title">Output:</p>
        <p id="output"></p>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
        <script src="Calculator.js"></script>

@@ -22,3 +22,14 @@ document.getElementById('multiply').onclick = function () {
     var output = first_number * second_number;
     document.getElementById('output').innerHTML = output;
 };
+document.getElementById('sqrt').onclick = function () {
+    var first_number =  parseFloat((document.getElementById('first_number')).value);
+    var output = Math.sqrt(first_number);
+    document.getElementById('output').innerHTML = output;
+};
+document.getElementById('power').onclick = function () {
+    var first_number =  parseFloat((document.getElementById('first_number')).value);
+    var second_number = parseFloat((document.getElementById('second_number')).value);
+    var output = Math.pow(first_number, second_number);
+    document.getElementById('output').innerHTML = output;
+};
