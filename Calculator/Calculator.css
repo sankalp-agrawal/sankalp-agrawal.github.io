@@ -31,5 +31,20 @@ body {
     top:-5px;
 }
 #reset {
-    width: 50px;
+    position: relative;
+    top:-20px;
+    font-size: 10px;
+    width: 80px;
+    height: 40px;
+}
+#reset2 {
+    position: relative;
+    top:-20px;
+    font-size: 10px;
+    width: 80px;
+    height: 40px;
+}
+#sqrt {
+    position: relative;
+    top:-5px;
 }
